@@ -22,5 +22,5 @@ filemenu.add_separator()
 filemenu.add_command(label="Exit",command=window.quit)
 
 
-
+window.config(menu=menubar)
 window.mainloop()
